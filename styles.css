@@ -10,25 +10,31 @@ body{
 }
 #name{
     text-align: center;
-    font-size: 125pt;
+    font-size: 130pt;
     margin: 25px;
+    font-family: "Brush Script MT", cursive; 
 }
 #outro{
     text-align: center;
+    font-size: 25pt;
 }
 
 #top-left{
     font-size: 50pt;
+    position: relative;
     float: left;
-    height: 100px;
-    width: 300px;
+    height: 10%;
+    width: 15%;
     margin: 10px;
     text-align: center;
     background: blanchedalmond;
     position: absolute;
     top: 10px;
     left: 16px;
-
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+    /* added relative position; changed height from 100px; changed
+    width from 300px */
 }
 #top-right{
     font-size: 50pt;
@@ -41,7 +47,8 @@ body{
     position: absolute;
     top: 10px;
     right: 16px;
-
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
 }
 #bot-right{
     font-size: 50pt;
@@ -54,6 +61,8 @@ body{
     position: absolute;
     bottom: 10px;
     right: 16px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
 }
 #bot-left{
     font-size: 50pt;
@@ -66,4 +75,58 @@ body{
     position: absolute;
     bottom: 10px;
     left: 16px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
 }
+/* about page */
+#about{
+    margin-top: 200px;
+    font-size: 30;
+    font-family: cursive;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    width: 40%;
+    border: solid greenyellow 10px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 25%;
+    
+}
+.interests{
+    font-size: 24pt;
+    list-style: none;
+    border: 10%;
+    background-color: aqua;
+    text-align: center;
+    box-sizing: border-box;
+    width: 40%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 25%;
+}
+
+/* bio */
+.bioP{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 50px;
+    background-color: blueviolet;
+    padding: 10px 12px;
+    border-radius: 100px;
+
+}
+#selfie{
+    width: 30%;
+    margin-top: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 45px;
+
+}
+
